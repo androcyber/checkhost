@@ -37,28 +37,28 @@
             <div class="col-1 col-lg-2"></div>
             <div class="col-10 col-lg-8">
                 <div class="btn-group d-flex flex-wrap" role="group" aria-label="Custom">
-                    <button type="submit" class="btn button-cc" id="info-btn" onclick="">Info</button>
-                    <button type="button" class="btn button-cc" id="ping-btn" onclick="">Ping</button>
-                    <button type="button" class="btn button-cc" id="http-btn" onclick="">HTTP</button>
-                    <button type="button" class="btn button-cc" id="tcp-btn" onclick="">TCP</button>
+                    <button type="submit" class="btn button-cc" id="info-btn">Info</button>
+                    <button type="button" class="btn button-cc" id="ping-btn">Ping</button>
+                    <button type="button" class="btn button-cc" id="http-btn">HTTP</button>
+                    <button type="button" class="btn button-cc" id="tcp-btn">TCP</button>
                     <div class="btn-group">
-                        <button type="button" class="btn button-cc" id="dns-btn" onclick=""> DNS</button>
+                        <button type="button" class="btn button-cc" id="dns-btn"> DNS</button>
                         <button type="button" class="btn button-cc dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" id="dns-btn" aria-expanded="false">
                             <span class="visually-hidden">Dropdown</span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" title="Host address (dotted quad)" onclick="" href="javascript:void(0)">A</a></li>
-                            <li><a class="dropdown-item" title="IP v6 address (address spec with colons)" onclick="" href="javascript:void(0)">AAAA</a></li>
-                            <li><a class="dropdown-item" title="Canonical name for an alias (domain name)" onclick="" href="javascript:void(0)">CNAME</a></li>
-                            <li><a class="dropdown-item" title="Mail exchanger (preference value, domain name)" onclick="" href="javascript:void(0)">MX</a></li>
-                            <li><a class="dropdown-item" title="Authoritative nameserver (domain name)" onclick="" href="javascript:void(0)">NS</a></li>
-                            <li><a class="dropdown-item" title="Domain name pointer (domain name)" onclick="" href="javascript:void(0)">PTR</a></li>
-                            <li><a class="dropdown-item" title="Start of Authority" onclick="" href="javascript:void(0)">SOA</a></li>
-                            <li><a class="dropdown-item" title="Service record (Can hide customized port or IP)" onclick="" href="javascript:void(0)">SRV</a></li>
-                            <li><a class="dropdown-item" title="Descriptive text (one or more strings)" onclick="" href="javascript:void(0)">TXT</a></li>
-                            <li><a class="dropdown-item" title="Reverse DNS Lookup" onclick="" href="javascript:void(0)">rDNS</a></li>
-                            <li><a class="dropdown-item" title="Certification Authority Authorization" onclick="" href="javascript:void(0)">CAA</a></li>
-                            <li><a class="dropdown-item" title="Naming Address Pointer" onclick="" href="javascript:void(0)">NAPTR</a></li>
+                            <li><a class="dropdown-item" title="Host address (dotted quad)" href="#">A</a></li>
+                            <li><a class="dropdown-item" title="IP v6 address (address spec with colons)" href="#">AAAA</a></li>
+                            <li><a class="dropdown-item" title="Canonical name for an alias (domain name)" href="#">CNAME</a></li>
+                            <li><a class="dropdown-item" title="Mail exchanger (preference value, domain name)" href="#">MX</a></li>
+                            <li><a class="dropdown-item" title="Authoritative nameserver (domain name)" href="#">NS</a></li>
+                            <li><a class="dropdown-item" title="Domain name pointer (domain name)" href="#">PTR</a></li>
+                            <li><a class="dropdown-item" title="Start of Authority" href="#">SOA</a></li>
+                            <li><a class="dropdown-item" title="Service record (Can hide customized port or IP)" href="#">SRV</a></li>
+                            <li><a class="dropdown-item" title="Descriptive text (one or more strings)" href="#">TXT</a></li>
+                            <li><a class="dropdown-item" title="Reverse DNS Lookup" href="#">rDNS</a></li>
+                            <li><a class="dropdown-item" title="Certification Authority Authorization" href="#">CAA</a></li>
+                            <li><a class="dropdown-item" title="Naming Address Pointer" href="#">NAPTR</a></li>
                         </ul>
                     </div>
                 </div>
