@@ -1,4 +1,4 @@
 TODO
-- Diğer ülke sağlayıcıları için görseller eklenecek ve temaya entegre edilecek.
-- Backend kısım tamamlanacak.
-- SEO geliştirilebilir. (isteğe bağlı)
+- Images from other countries will be added and integrated into the theme.
+- Backend coding will be done.
+- SEO can be improved. (optional)
